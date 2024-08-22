@@ -28,7 +28,42 @@
     </style>
 
     <!-- font awesome cdn-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      data-purpose="Layout StyleSheet"
+      title="Web Awesome"
+      href="/css/app-wa-09b459cf485d4b1f3304947240314c05.css?vsn=d"
+    >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/all.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-duotone-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-thin.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-solid.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-regular.css"
+      >
+
+      <link
+        rel="stylesheet"
+        href="https://site-assets.fontawesome.com/releases/v6.6.0/css/sharp-light.css"
+      >
 
     <script>
         tailwind.config = {
@@ -48,14 +83,13 @@
       </script>
 </head>
 
-<body class="manrope-font">
+<body class="manrope-font bg-[#F4F4F4]">
     <header class="bg-gradient-to-b from-[#F4F4F4] to-[#FFFFFF] px-5">
-
       <!-- nav-bar-main -->
-        <nav class="lg:pt-12 pt-8 container mx-auto">
-          <div class="navbar">
+        <nav class="lg:pt-12 pt-8 max-w-[1170px] mx-auto">
+          <div class="navbar justify-between">
             <!-- nav start -->
-            <div class="navbar-start">
+            <div class="justify-start w-5/12">
               <i class="fa-solid fa-arrow-right arrow text-black flex justify-center items-center rounded-full mr-2"></i>
               <a class="lg:text-3xl text-2xl font-extrabold">Rinterio</a>
             </div>
@@ -79,7 +113,6 @@
             </div>
           </div>
         </nav>
-
       <!-- hero-section -->
        <div class="container mx-auto flex flex-col justify-center items-center text-center">
           <div class="lg:mb-6 mb-4 mx-auto">
@@ -95,7 +128,84 @@
           </div>
        </div>
     </header>
-    <main></main>
-    <footer></footer>
+
+    <main >
+      <!-- About us section -->
+      <section class="max-w-[1170px] mx-auto  lg:my-[100px] my-8 px-5 lg:px-0">
+        
+        <!-- content and image -->
+        <div class="md:flex md:gap-9 gap-6 justify-between items-end">
+          <!-- content -->
+          <div class="relative">
+            <img class="absolute -left-[48px] -top-[62px] hidden lg:flex" src="./assets/Vector.png" alt="">
+            <div class="mb-7 mt-2">
+              <span class="bg-white px-4 py-2 rounded-full font-bold text-p-color-1"><i class="fa-solid fa-arrow-right"></i> About Us</span>
+            </div>
+            <h2 class="font-bold lg:text-4xl text-2xl mb-6 lg:max-w-lg">We design thoughtful, liveable spaces</h2>
+            <p class="text-p-color-1 mb-6 lg:mb-8">The barn house captivates with its blend of rustic charm and <br>
+              modern sophistication, featuring weathered wood, sleek metal accents.</p>
+
+            <!-- card-container -->
+            <div class="mb-8 lg:mb-0">
+              <!-- card 1-->
+              <div class="p-6 bg-white rounded-2xl flex gap-6 max-w-xl mb-6">
+              <div>
+                <img src="./assets/commercial.png" alt="">
+              </div>
+              <div>
+                <h4 class="font-extrabold text-xl text-p-color-1 mb-3">Commercial</h4>
+                <p class="text-p-color-2 max-w-80">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              </div> 
+              <!-- card 2-->
+              <div class="p-6 bg-white rounded-2xl flex gap-6 max-w-xl">
+              <div>
+                <img src="./assets/residential.png" alt="">
+              </div>
+              <div>
+                <h4 class="font-extrabold text-xl text-p-color-1 mb-3">Residential</h4>
+                <p class="text-p-color-2 max-w-80">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              </div>
+            </div>
+          </div>
+          <!-- image -->
+          <div>
+            <img src="./assets/Rectangle.png" alt="">
+          </div>
+        </div>
+      </section>
+
+      <!-- Third section -->
+      <section class="max-w-[1170px] md:mx-auto">
+        <!-- card-container -->
+        <div class="lg:p-8 p-6 lg:grid grid-cols-4 bg-white rounded-3xl mx-5 lg:mx-0">
+          <!-- card 1-->
+          <div class="text-center p-6">
+            <i class="fa-light fa-message-lines text-p-color-1 text-4xl"></i>
+            <h2 class="text-[40px] font-extrabold text-p-color-1">235+</h2>
+            <p class="font-medium text-p-color-2">Happy Client Review</p>
+          </div>
+          <!-- card 2-->
+          <div class="text-center p-6">
+            <i class="fa-sharp fa-light fa-house-building text-p-color-1 text-4xl"></i>
+            <h2 class="text-[40px] font-extrabold text-p-color-1">235+</h2>
+            <p class="font-medium text-p-color-2">Happy Client Review</p>
+          </div>
+          <!-- card 3-->
+          <div class="text-center p-6">
+            <i class="fa-light fa-user-group text-p-color-1 text-4xl"></i>
+            <h2 class="text-[40px] font-extrabold text-p-color-1">235+</h2>
+            <p class="font-medium text-p-color-2">Happy Client Review</p>
+          </div>
+          <!-- card 4-->
+          <div class="text-center p-6">
+            <i class="fa-light fa-user-headset text-p-color-1 text-4xl"></i>
+            <h2 class="text-[40px] font-extrabold text-p-color-1">235+</h2>
+            <p class="font-medium text-p-color-2">Happy Client Review</p>
+          </div>
+        </div>
+      </section>
+    </main>
 </body>
 </html>
