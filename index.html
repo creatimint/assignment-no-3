@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rinterio</title>
+    <!-- DaisyUI + Tailwind css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google-font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+
+    <style>
+        .manrope-font{
+            font-family: "Manrope", sans-serif;
+        }
+        .arrow {
+            width: 2rem;
+            height: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            rotate: -45deg;
+            background-color: #ABEF5F;
+        }
+    </style>
+
+    <!-- font awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                primary_color: '#212121',
+                'second-color': '#ABEF5F',
+                'p-color-1': '#494949',
+                'p-color-2': '#737373',
+              }
+            }
+          }
+        }
+      </script>
+</head>
+
+<body class="manrope-font">
+    <header class="container mx-auto">
+      <!-- nav-bar-main -->
+        <nav>
+          <div class="navbar bg-base-100">
+
+            <div class="navbar-start">
+              <i class="fa-solid fa-arrow-right arrow text-black flex justify-center items-center rounded-full mr-2"></i>
+              <a class="lg:text-3xl text-2xl font-extrabold">Rinterio</a>
+            </div>
+
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>Services</a></li>
+                <li><a>Portfolio</a></li>
+                <li><a>Blogs</a></li>
+                <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+
+            <div class="navbar-end gap-4">
+              <i class="fa-solid fa-magnifying-glass w-12 h-12 border border-[#E9E9E9] text-2xl flex justify-center items-center rounded-full"></i>
+              <i class="fa-solid fa-cart-shopping w-12 h-12 border border-[#E9E9E9] text-2xl flex justify-center items-center rounded-full"></i>
+              <a class="btn hidden lg:flex bg-second-color rounded-full text-xl font-extrabold shadow-none">
+                Book Consult <i class="fa-solid fa-arrow-right arrow bg-black text-white flex justify-center items-center rounded-full"></i></a>
+              <i class="fa-solid fa-bars lg:hidden"></i>
+            </div>
+          </div>
+        </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+</body>
+</html>
