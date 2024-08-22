@@ -36,10 +36,11 @@
             extend: {
               colors: {
                 clifford: '#da373d',
-                primary_color: '#212121',
+                'primary-color': '#212121',
                 'second-color': '#ABEF5F',
                 'p-color-1': '#494949',
                 'p-color-2': '#737373',
+                'light-green': 'rgba(171, 239, 95, 0.5)',
               }
             }
           }
@@ -48,16 +49,17 @@
 </head>
 
 <body class="manrope-font">
-    <header class="container mx-auto">
-      <!-- nav-bar-main -->
-        <nav>
-          <div class="navbar bg-base-100">
+    <header class="bg-gradient-to-b from-[#F4F4F4] to-[#FFFFFF] px-5">
 
+      <!-- nav-bar-main -->
+        <nav class="lg:pt-12 pt-8 container mx-auto">
+          <div class="navbar">
+            <!-- nav start -->
             <div class="navbar-start">
               <i class="fa-solid fa-arrow-right arrow text-black flex justify-center items-center rounded-full mr-2"></i>
               <a class="lg:text-3xl text-2xl font-extrabold">Rinterio</a>
             </div>
-
+            <!-- nav center -->
             <div class="navbar-center hidden lg:flex">
               <ul class="menu menu-horizontal px-1">
                 <li><a>Home</a></li>
@@ -67,16 +69,31 @@
                 <li><a>Contact Us</a></li>
               </ul>
             </div>
-
+          <!-- nav end -->
             <div class="navbar-end gap-4">
-              <i class="fa-solid fa-magnifying-glass w-12 h-12 border border-[#E9E9E9] text-2xl flex justify-center items-center rounded-full"></i>
-              <i class="fa-solid fa-cart-shopping w-12 h-12 border border-[#E9E9E9] text-2xl flex justify-center items-center rounded-full"></i>
-              <a class="btn hidden lg:flex bg-second-color rounded-full text-xl font-extrabold shadow-none">
-                Book Consult <i class="fa-solid fa-arrow-right arrow bg-black text-white flex justify-center items-center rounded-full"></i></a>
-              <i class="fa-solid fa-bars lg:hidden"></i>
+              <i class="fa-solid fa-magnifying-glass w-12 h-12 hidden md:flex border border-[#E9E9E9] text-2xl justify-center items-center rounded-full bg-white"></i>
+              <i class="fa-solid fa-cart-shopping w-12 h-12 border hidden md:flex border-[#E9E9E9] text-2xl justify-center items-center rounded-full bg-white"></i>
+              <a class="btn hidden md:flex bg-second-color rounded-full text-xl font-extrabold shadow-none">
+                Book Consult <i class="fa-solid fa-arrow-right arrow bg-primary-color text-white flex justify-center items-center rounded-full"></i></a>
+              <i class="fa-solid fa-bars lg:hidden w-12 h-12 border border-[#E9E9E9] text-2xl flex justify-center items-center rounded-full"></i>
             </div>
           </div>
         </nav>
+
+      <!-- hero-section -->
+       <div class="container mx-auto flex flex-col justify-center items-center text-center">
+          <div class="lg:mb-6 mb-4 mx-auto">
+             <img src="./assets/banner.png" alt="">
+          </div>
+          <div class="lg:mb-8 mb-5">
+             <h1 class="primary-color lg:text-6xl text-3xl font-extrabold lg:max-w-[1064px] mx-auto mb-7">A barn house of this design has a striking appearance</h1>
+             <p class="lg:max-w-[950px] mx-auto text-p-color-1">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p>
+          </div>
+          <div class="lg:mb-[100px] mb-10 w-full md:w-[206px] lg:w-[206px] bg-light-green rounded-full flex justify-center items-center ">
+             <button class="bg-transparent border-none flex gap-2 justify-center items-center h-12 font-bold text-xl">View Details 
+               <i class="fa-solid fa-arrow-right arrow text-black flex justify-center items-center rounded-full mr-2"></i></button>
+          </div>
+       </div>
     </header>
     <main></main>
     <footer></footer>
