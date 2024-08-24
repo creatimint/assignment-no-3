@@ -89,7 +89,7 @@
         <nav class="lg:pt-12 pt-8 max-w-[1170px] mx-auto">
           <div class="navbar justify-between">
             <!-- nav start -->
-            <div class="justify-start w-5/12">
+            <div class="justify-start md:w-5/12">
               <i class="fa-solid fa-arrow-right arrow text-black flex justify-center items-center rounded-full mr-2"></i>
               <a class="lg:text-3xl text-2xl font-extrabold">Rinterio</a>
             </div>
@@ -134,38 +134,40 @@
       <section class="max-w-[1170px] mx-auto  lg:my-[100px] my-8 px-5 lg:px-0">
         
         <!-- content and image -->
-        <div class="md:flex md:gap-9 gap-6 justify-between items-end">
+        <div class="md:flex md:gap-9 gap-6 md:justify-between items-end">
           <!-- content -->
           <div class="relative">
             <img class="absolute -left-[48px] -top-[62px] hidden lg:flex" src="./assets/Vector.png" alt="">
-            <div class="mb-7 mt-2">
-              <span class="bg-white px-4 py-2 rounded-full font-bold text-p-color-1"><i class="fa-solid fa-arrow-right"></i> About Us</span>
+            <div class="mb-7 mt-2 flex justify-center lg:justify-start">
+              <span class="bg-white px-4 py-2 rounded-full font-bold text-p-color-1 max-w-32"><i class="fa-solid fa-arrow-right"></i> About Us</span>
             </div>
-            <h2 class="font-bold lg:text-4xl text-2xl mb-6 lg:max-w-lg">We design thoughtful, liveable spaces</h2>
-            <p class="text-p-color-1 mb-6 lg:mb-8">The barn house captivates with its blend of rustic charm and <br>
+            <div>
+              <h2 class="font-bold lg:text-4xl text-2xl mb-6 lg:max-w-lg lg:text-left text-center">We design thoughtful, liveable spaces</h2>
+              <p class="text-p-color-1 mb-6 lg:mb-8 lg:text-left text-center">The barn house captivates with its blend of rustic charm and <br>
               modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
 
             <!-- card-container -->
             <div class="mb-8 lg:mb-0">
               <!-- card 1-->
               <div class="p-6 bg-white rounded-2xl flex gap-6 max-w-xl mb-6">
-              <div>
+                <div>
                 <img src="./assets/commercial.png" alt="">
-              </div>
-              <div>
+                </div>
+                <div>
                 <h4 class="font-extrabold text-xl text-p-color-1 mb-3">Commercial</h4>
                 <p class="text-p-color-2 max-w-80">The barn house captivates with its blend of rustic charm and modern.</p>
-              </div>
+                </div>
               </div> 
               <!-- card 2-->
               <div class="p-6 bg-white rounded-2xl flex gap-6 max-w-xl">
-              <div>
+                <div>
                 <img src="./assets/residential.png" alt="">
-              </div>
-              <div>
+                </div>
+                <div>
                 <h4 class="font-extrabold text-xl text-p-color-1 mb-3">Residential</h4>
                 <p class="text-p-color-2 max-w-80">The barn house captivates with its blend of rustic charm and modern.</p>
-              </div>
+                </div>
               </div>
             </div>
           </div>
@@ -177,35 +179,76 @@
       </section>
 
       <!-- Third section -->
-      <section class="max-w-[1170px] md:mx-auto">
+      <section class="max-w-[1170px] md:mx-auto pb-8 md:pb-[100px]">
         <!-- card-container -->
-        <div class="lg:p-8 p-6 lg:grid grid-cols-4 bg-white rounded-3xl mx-5 lg:mx-0">
+        <div class="lg:p-8 p-6 md:grid lg:grid-cols-4 md:grid-cols-2 bg-white rounded-3xl mx-5 lg:mx-0">
           <!-- card 1-->
           <div class="text-center p-6">
-            <i class="fa-light fa-message-lines text-p-color-1 text-4xl"></i>
-            <h2 class="text-[40px] font-extrabold text-p-color-1">235+</h2>
+            <i class="fa-light fa-message-lines text-p-color-1 text-4xl mb-3"></i>
+            <h2 class="md:text-[40px] text-3xl font-extrabold text-p-color-1 mb-2">235+</h2>
             <p class="font-medium text-p-color-2">Happy Client Review</p>
           </div>
           <!-- card 2-->
           <div class="text-center p-6">
-            <i class="fa-sharp fa-light fa-house-building text-p-color-1 text-4xl"></i>
-            <h2 class="text-[40px] font-extrabold text-p-color-1">235+</h2>
-            <p class="font-medium text-p-color-2">Happy Client Review</p>
+            <i class="fa-sharp fa-light fa-house-building text-p-color-1 text-4xl mb-3"></i>
+            <h2 class="md:text-[40px] text-3xl font-extrabold text-p-color-1 mb-2">50+</h2>
+            <p class="font-medium text-p-color-2">Work Departments</p>
           </div>
           <!-- card 3-->
           <div class="text-center p-6">
-            <i class="fa-light fa-user-group text-p-color-1 text-4xl"></i>
-            <h2 class="text-[40px] font-extrabold text-p-color-1">235+</h2>
-            <p class="font-medium text-p-color-2">Happy Client Review</p>
+            <i class="fa-light fa-user-group text-p-color-1 text-4xl mb-3"></i>
+            <h2 class="md:text-[40px] text-3xl font-extrabold text-p-color-1 mb-2">30k+</h2>
+            <p class="font-medium text-p-color-2">Our Happy Client</p>
           </div>
           <!-- card 4-->
           <div class="text-center p-6">
-            <i class="fa-light fa-user-headset text-p-color-1 text-4xl"></i>
-            <h2 class="text-[40px] font-extrabold text-p-color-1">235+</h2>
-            <p class="font-medium text-p-color-2">Happy Client Review</p>
+            <i class="fa-light fa-user-headset text-p-color-1 text-4xl mb-3"></i>
+            <h2 class="md:text-[40px] text-3xl font-extrabold text-p-color-1 mb-2">307+</h2>
+            <p class="font-medium text-p-color-2">Staff Members</p>
           </div>
         </div>
       </section>
+      
+      <!-- Works Process section -->
+       <section class="max-w-[1170px] mx-auto  mb-8 px-5 lg:px-0 lg:pb-[100px] pb-8">
+          <div class="flex justify-center flex-col items-center">
+            <span class="bg-white px-4 py-2 rounded-full font-bold text-p-color-1 mb-7"><i class="fa-solid fa-arrow-right"></i> How we works</span>
+            <h2 class="font-bold lg:text-4xl text-2xl mb-6 lg:max-w-lg text-center">Our Works Process</h2>
+            <p class="text-p-color-1 mb-6 lg:mb-8 text-center max-w-2xl">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+          </div>
+
+          <div class="mb-8 lg:mb-0 grid grid-cols-1 lg:grid-cols-4 md:grid-cols-2 gap-6">
+              <!-- card 1-->
+              <div class="p-6 bg-[#E7C1D3] rounded-2xl">
+                <img class="mb-3" src="./assets/concept.png" alt="">
+                <h4 class="font-extrabold text-xl text-primary-color mb-3">Residential</h4>
+                <p class="text-p-color-1 max-w-80">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              <!-- card 2-->
+              <div class="p-6 bg-[#EFDA6E] rounded-2xl">
+                <img class="mb-3" src="./assets/flow-chart.png" alt="">
+                <h4 class="font-extrabold text-xl text-primary-color mb-3">Residential</h4>
+                <p class="text-p-color-1 max-w-80">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              <!-- card 3-->
+              <div class="p-6 bg-[#A4DAC3] rounded-2xl">
+                <img class="mb-3" src="./assets/vision.png" alt="">
+                <h4 class="font-extrabold text-xl text-primary-color mb-3">Residential</h4>
+                <p class="text-p-color-1 max-w-80">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+              <!-- card 4-->
+              <div class="p-6 bg-[#77AAEA] rounded-2xl">
+                <img class="mb-3" src="./assets/budget-planning.png" alt="">
+                <h4 class="font-extrabold text-xl text-primary-color mb-3">Residential</h4>
+                <p class="text-p-color-1 max-w-80">The barn house captivates with its blend of rustic charm and modern.</p>
+              </div>
+          </div>
+       </section>
+
+       <!--Latest Portfolio section  -->
+       <section>
+        
+       </section>
     </main>
 </body>
 </html>
